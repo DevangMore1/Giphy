@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    color: antiquewhite;
+}
+
+.gifContainer{
+
+    column-count: 4;
+    column-gap: 10px;
+    /* display:grid;
+    grid-template-columns : repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px; */
+    /* row-Gap: 10px;
+    column-Gap: 10px; */
+    
+    width: 75%;
+}
+.container form{
+    width: 75%;
+    display: flex;
+
+}
+.container input{
+    font-size: 30px;
+    width: 90%;
+    height: 50px;
+}
+.container .submit{
+    width: 10%;
+    height: 56px;
+}
+
+.gifContainer img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+    break-inside: avoid-column;
+    background: url("./../checkers.png");
+}
